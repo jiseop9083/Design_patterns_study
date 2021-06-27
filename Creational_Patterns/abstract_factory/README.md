@@ -14,7 +14,7 @@
  - concreteFactory: concreteProduct를 생성하는 곳
  - abstractFactory: concreteFactory의 일반적인 형태
 
- ![이미지](./abstract factory.png)
+ ![이미지](./abstract_factory.png)
 
 ### 3. 특징
  - concrete class의 고립, client는 인터페이스를 통해 concrete class에 접근한다.
