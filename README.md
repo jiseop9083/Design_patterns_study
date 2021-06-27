@@ -2,7 +2,7 @@
 
 
 ## 1. creational Patterns
-  - [singleton](./Creational_Patterns/singleton.README.md)
+  - [singleton](./Creational_Patterns/singleton)
   - abstract factory
   - builder
   - factory method
