@@ -23,11 +23,11 @@
  - 새로운 product를 만드는 것이 어렵다
 
 ### 4. 예시
-  **두 종류의 필기구 세트(stationaryA, stationaryB)가 있다고 생각하자 **
+  **두 종류의 필기구 세트(stationaryA, stationaryB)가 있다고 생각하자**
  
-  **각 필기구 세트에는 연필(pencil), 볼펜(ballPoint), 지우개(eraser), 수정테이프(correctionTape)가 있다고 하자 **
+  **각 필기구 세트에는 연필(pencil), 볼펜(ballPoint), 지우개(eraser), 수정테이프(correctionTape)가 있다고 하자**
  
-  **이 때 필기구는 각 세트별로 판매해야한다. stationaryA의 연필, 볼펜과 stationaryB의 지우개 수정테이프를 판매하는 식의 섞어팔기는 허용되지 않는다 **
+  **이 때 필기구는 각 세트별로 판매해야한다. stationaryA의 연필, 볼펜과 stationaryB의 지우개 수정테이프를 판매하는 식의 섞어팔기는 허용되지 않는다**
  
  </p>
  
