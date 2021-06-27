@@ -14,6 +14,8 @@
  - concreteFactory: concreteProduct를 생성하는 곳
  - abstractFactory: concreteFactory의 일반적인 형태
 
+![이미지](
+
 ### 3. 특징
  - concrete class의 고립, client는 인터페이스를 통해 concrete class에 접근한다.
  - product를 바꾸기 쉽다. 그냥 바꾸면 더 수정할 필요가 없다.
@@ -21,9 +23,9 @@
  - 새로운 product를 만드는 것이 어렵다
 
 ### 4. 예시
-  ** 두 종류의 필기구 세트(stationaryA, stationaryB)가 있다고 생각하자 **
-  ** 각 필기구 세트에는 연필(pencil), 볼펜(ballPoint), 지우개(eraser), 수정테이프(correctionTape)가 있다고 하자 **
-  ** 이 때 필기구는 각 세트별로 판매해야한다. stationaryA의 연필, 볼펜과 stationaryB의 지우개 수정테이프를 판매하는 식의 섞어팔기는 허용되지 않는다 ** 
+ ** 두 종류의 필기구 세트(stationaryA, stationaryB)가 있다고 생각하자 **
+ ** 각 필기구 세트에는 연필(pencil), 볼펜(ballPoint), 지우개(eraser), 수정테이프(correctionTape)가 있다고 하자 **
+ ** 이 때 필기구는 각 세트별로 판매해야한다. stationaryA의 연필, 볼펜과 stationaryB의 지우개 수정테이프를 판매하는 식의 섞어팔기는 허용되지 않는다 ** 
  </p>
  
  - abstractFactory: stationary의 인터페이스
