@@ -2,31 +2,31 @@
 
 
 1. creational Patterns
- - singleton
- - abstract factory
- - builder
- - factory method
- - prototype
+  - singleton
+  - abstract factory
+  - builder
+  - factory method
+  - prototype
  ------
 2. Structural Patterns
- - adapter
- - birdge
- - composite
- - decorator
- - facade
- - flyweight
- - proxy
+  - adapter
+  - birdge
+  - composite
+  - decorator
+  - facade
+  - flyweight
+  - proxy
 -------
 3. Behavioral Patterns
- - chain of responsibility
- - command
- - interpreter
- - iterator
- - mediator
- - memento
- - observer
- - state
- - strategy
- - template method
- - visitor
+  - chain of responsibility
+  - command
+  - interpreter
+  - iterator
+  - mediator
+  - memento
+  - observer
+  - state
+  - strategy
+  - template method
+  - visitor
  -----
