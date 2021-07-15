@@ -3,7 +3,7 @@
  - **객체가 할 수 있는 행위를 인터페이스로 구현하고 행위에 대한 전략을 수정하는 방법**
 
 
-  ![strategy_pattern](./strategy pattern.png)
+  ![strategy_pattern](./strategy_pattern.png)
  
  ## 예시
  
