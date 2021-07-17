@@ -1,6 +1,14 @@
 # Design Patterns 
 
 
+### OCP(Open-Closed Principle)
+ 확장에는 열려 있지만 수정에는 닫혀 있는 원칙
+ Open for extension and closed for modification!
+ 
+ - 기존의 코드는 변경하지 않으면서 약간의 코드를 추가해 쉽게 확장가능하도록 설계해야한다.
+
+----
+
 ## 1. creational Patterns
   - [singleton](./Creational_Patterns/singleton/README.md)
   - [abstract factory](./Creational_Patterns/abstract_factory/README.md)
