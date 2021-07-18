@@ -8,4 +8,7 @@
   ---
 
 
- ##example
+ ## example
+ 
+ - pizza가게에 CheezePizza와 PepperoniPizza가 있다고 하자.
+ - pizza가게는 체인점이어서 NewYork에도 있고 Chicago에도 있다고 하자(두 지역의 피자 스타일이 다르다)
