@@ -6,3 +6,6 @@
   ![factory method](./factory_method_pattern.png)
   
   ---
+
+
+ ##example
