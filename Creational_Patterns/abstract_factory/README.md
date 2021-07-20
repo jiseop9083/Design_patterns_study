@@ -28,11 +28,10 @@ concrete factory에서 여러 product를 선택해 생성한다. -> 이를 선�
  
   [factoy method pattern](https://github.com/jiseop9083/Design_patterns_study/edit/main/Creational_Patterns/factory_method/)
  
-  **이 때 필기구는 각 세트별로 판매해야한다. stationaryA의 연필, 볼펜과 stationaryB의 지우개 수정테이프를 판매하는 식의 섞어팔기는 허용되지 않는다**
- 
- </p>
- 
- - abstractFactory: stationary의 인터페이스
- - concreteFactory: stationaryA, stationaryB
- - abstractProduct: pencil, ballPoint, eraser, correctionTape
- - concreteProduct: stationaryA의 pencil, stationaryB의 eraser 등등
+ - pizza의 재료는 NY스타일이냐 Chicago스타일이냐에 따라 다르다
+ - 들어가는 재료는 다음과 같다
+|재료|NY스타일|Chicago 스타일|
+|:---:|:---:|:---:|
+|dough|thin|thick|
+|cheese|Mozzarella|Reggiano|
+|sauce|marinara|plumTomato|
