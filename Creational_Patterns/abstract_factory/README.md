@@ -30,8 +30,8 @@ concrete factory에서 여러 product를 선택해 생성한다. -> 이를 선�
  
  - pizza의 재료는 NY스타일이냐 Chicago스타일이냐에 따라 다르다
  - 들어가는 재료는 다음과 같다
-|재료|NY스타일|Chicago 스타일|
-|:---:|:---:|:---:|
-|dough|thin|thick|
-|cheese|Mozzarella|Reggiano|
-|sauce|marinara|plumTomato|
+ |재료|NY스타일|Chicago 스타일|
+ |:---:|:---:|:---:|
+ |dough|thin|thick|
+ |cheese|Mozzarella|Reggiano|
+ |sauce|marinara|plumTomato|
