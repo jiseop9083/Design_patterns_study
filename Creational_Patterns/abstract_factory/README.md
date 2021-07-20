@@ -32,12 +32,63 @@ concrete factory에서 여러 product를 선택해 생성한다. -> 이를 선�
  - 들어가는 재료는 다음과 같다
 
 
- |재료|NY스타일|Chicago 스타일|
+ |재료|NY 스타일|Chicago 스타일|
  |:---:|:---:|:---:|
- |dough|thin|thick|
- |cheese|Mozzarella|Reggiano|
- |sauce|marinara|plumTomato|
+ |Dough|Thin|Thick|
+ |Cheese|Mozzarella|Reggiano|
+ |Sauce|Aarinara|Plum tomato|
  
  
  --- 
  
+```
+
+ 1. abstract factory
+```
+public interface PizzaIngredientFactory {
+	public Dough createDough();
+	public Sauce createSauce();
+	public Cheese createCheese();
+}
+
+```
+
+ 2. concrete factory(NYPizzaIngredientFactory와 ChicagoPizzaIngredientFactory)
+
+```
+public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
+	
+	public Dough createDough() {
+		return new ThinCrustDough();
+	}
+	
+	public Sauce createSauce() {
+		return new MarinaraSauce();
+	}
+		
+
+	public Cheese createCheese() {
+		return new RegginanoCheese();
+	}
+}
+```
+
+
+ 
+```
+public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
+	
+	public Dough createDough() {
+		return new ThickCrustDough();
+	}
+	
+	public Sauce createSauce() {
+		return new PlumTomatoSauce();
+	}
+		
+
+	public Cheese createCheese() {
+		return new MozzarellaCheese();
+	}
+}
+```
