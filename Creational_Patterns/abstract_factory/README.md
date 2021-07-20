@@ -26,7 +26,7 @@ concrete factory에서 여러 product를 선택해 생성한다. -> 이를 선�
 ### 4. 예시
   **factory method에서 나온 예시를 응용하겠다.**
  
-  [factoy method pattern](https://github.com/jiseop9083/Design_patterns_study/edit/main/Creational_Patterns/factory_method/README.md)
+  [factoy method pattern](https://github.com/jiseop9083/Design_patterns_study/edit/main/Creational_Patterns/factory_method/)
  
   **이 때 필기구는 각 세트별로 판매해야한다. stationaryA의 연필, 볼펜과 stationaryB의 지우개 수정테이프를 판매하는 식의 섞어팔기는 허용되지 않는다**
  
