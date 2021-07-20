@@ -41,7 +41,6 @@ concrete factory에서 여러 product를 선택해 생성한다. -> 이를 선�
  
  --- 
  
-```
 
  1. abstract factory
 ```
@@ -53,10 +52,11 @@ public interface PizzaIngredientFactory {
 
 ```
 
+
  2. concrete factory(NYPizzaIngredientFactory와 ChicagoPizzaIngredientFactory)
 
 ```
-public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
+ public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 	
 	public Dough createDough() {
 		return new ThinCrustDough();
@@ -70,7 +70,8 @@ public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 	public Cheese createCheese() {
 		return new RegginanoCheese();
 	}
-}
+ }
+
 ```
 
 
@@ -91,4 +92,5 @@ public class ChicagoPizzaIngredientFactory implements PizzaIngredientFactory {
 		return new MozzarellaCheese();
 	}
 }
+
 ```
