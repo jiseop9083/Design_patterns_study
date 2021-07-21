@@ -28,10 +28,10 @@ public class Logger {
 
 
 
-1. double checked locking
+1. **double checked locking**
 
- - synchroized 키워드를 통해 쓰레드의 동시접근을 막음
- - 다만, 성능이 저하됨
+    synchroized 키워드를 통해 쓰레드의 동시접근을 막음
+    다만, 성능이 저하됨
 ```
 public class Singleton {
     private Singleton() {}
@@ -48,9 +48,9 @@ public class Singleton {
 }
 ```
 
-2. eager initialization
+2. **eager initialization**
 
- - 미리 객체를 초기화하고 getInstance는 미리 생성된 객체를 return만 
+     미리 객체를 초기화하고 getInstance는 미리 생성된 객체를 return만 
 ```
 public class Singleton {
     private Singleton() {}
