@@ -31,6 +31,7 @@ public class Logger {
 1. **double checked locking**
 
     synchroized 키워드를 통해 쓰레드의 동시접근을 막음
+    
     다만, 성능이 저하됨
 ```
 public class Singleton {
