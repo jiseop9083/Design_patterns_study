@@ -118,4 +118,5 @@ public static void main(String[] args) {
 		duck.quack();
 		duck.fly();
 	}
+}
 ```
